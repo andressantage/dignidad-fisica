@@ -1,0 +1,149 @@
+#ultimo+div{
+    visibility: hidden;
+}
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Coiny";
+    src: url("letra/Coiny-Regular.ttf"); /* Reemplaza "Coiny.ttf" con el nombre del archivo de fuente descargado */
+}
+@font-face {
+    font-family: "Outfit";
+    src: url("letra/Outfit-VariableFont_wght.ttf"); /* Reemplaza "Coiny.ttf" con el nombre del archivo de fuente descargado */
+}
+@font-face {
+    font-family: "Comfortaa";
+    src: url("letra/Comfortaa-VariableFont_wght.ttf"); /* Reemplaza "Coiny.ttf" con el nombre del archivo de fuente descargado */
+}
+body{
+    background: linear-gradient(90deg, #C1DFC4 0%, #DEECDD 100%);
+}
+
+/* Navegacion */
+.navLired{
+    background-color: #fcffdd !important;
+    border-bottom: 4px solid black;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+.imgLogo{
+    width: 60px;
+    height: 60px;    
+}
+.Lired{
+    color: black !important;
+    font-family: 'Coiny';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 64px; */
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 0rem;
+}
+.nav-buttons-bg{
+    background: #CFEDED;
+    border: 0px ;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Coiny';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.title{
+    color: #000;
+    text-align: center;
+    font-size: 3.5vw;
+    font-family: 'Coiny';
+    font-style: normal;
+    font-weight: 400;
+    line-height:100%;
+}
+
+.title{
+    color: #000;
+    text-align: center;
+    font-size: 3.5vw;
+    font-family: 'Coiny';
+    font-style: normal;
+    font-weight: 400;
+    line-height:100%;
+}
+.content-container{
+    width: calc(100% - 120px);
+    margin: auto;
+}
+
+.nav-buttons-container{
+    gap: 0px 5px;
+    font-family: 'Coiny';
+    font-weight: bolder;
+}
+.nav-buttons-bg{
+    background: #CFEDED;
+}
+
+.main-bg{
+    background:#FCFFDD;
+} 
+
+.color-bg-inicio{
+    background: #C1DFC4;
+}
+
+.interactive-card{
+    color: #000;
+    font-size: 2.6vw;
+    font-weight:500;
+    border-radius: 53px;
+    margin-left: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.rounded-photos{
+    width: 400px;
+    height: 400px;
+}
+
+.ipt-card{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #000;
+    background: rgba(0, 0, 0, 0.07);
+}
+.link-sesion{
+    color: #2F2F74;
+    font-size: 20px;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    
+}
+
+#nav-btn-registro,#nav-btn-ingresar:hover{
+    cursor:grab;
+}
+
+@media (max-width: 500px) {
+    .fila{
+        flex-direction: column !important;
+    }
+    .rounded-photos{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
